@@ -84,3 +84,14 @@ function elmPremium(){
     document.querySelector(".premium").style.borderBottom = "3px solid #18c47c";
     document.querySelector(".premium").style.color = "#18c47c";
 } 
+
+
+const btn = document.querySelector(".btnTop");
+
+btn.addEventListener("click", ()=>{
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth"
+    });
+});

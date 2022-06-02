@@ -6,6 +6,23 @@ html,body{
     padding: 0;
 }
 
+.btnTop{
+    z-index: 5;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    background: #2879fe;
+    color: #fff;
+    box-shadow: 7px 10px 14px rgb(36 41 83 / 20%);
+}
+
 .svgAb{
     display: inline-block;
     position: absolute;
@@ -257,89 +274,8 @@ td, th {
   .review-boxj{
       display: none;
   }
-@media screen and (min-width:1200px) {
-    .container{
-        max-width: 1200px !important;
-    }
 
-    .d-grid{
-        max-width: 950px;
-        margin: auto;
-    }
 
-    .box{
-        max-width: 250px;
-    }
-
-    .number{
-        font-size: 72px;
-        line-height: 71px;
-    }
-    .btn{
-        font-size: 18px;
-        line-height: 24px;
-        color: #fff;
-    }
-}
-
-@media screen and (min-width:1024px) {
-    .container{
-        max-width: 1200px;
-    }
-    .d-imgText{
-        position: absolute;
-        width: 100%;
-        top: 30%;
-        line-height: 62px;
-    }
-    .title-h1{
-        font-size: 64px;
-        font-weight: 600;
-        line-height: 74px;
-    }
-    .d-h1{
-        font-size: 64px;
-        line-height: 64px;
-    }
-    
-    .title-h2{
-        margin-top: 34px;
-        font-weight: 600;
-        font-size: 48px;
-        line-height: 53px;
-        
-    }
-    
-    .title-h3{
-        margin-top: 15px;
-        font-weight: 500;
-        font-size: 36px;
-        line-height: 40px;
-    }
-    
-    .title-h4{
-        font-weight: 500;
-        font-size: 24px;
-        line-height: 31px;
-        color: #191919;
-    }
-
-    .img{
-        width: 60%;
-    }
-    .d-card{
-        width: 40%;
-    }
-
-    .imgb{
-        max-width: 750px;
-        margin: auto;
-    }
-    .f-Text{
-        width: 60%;
-    }
-    
-}
 
 .boxj{
     width: 100%;
@@ -384,127 +320,7 @@ td, th {
     display: none;
 }
 
-@media (max-width: 1024px){
-    .overview {
-        background: linear-gradient(20.83deg,#c928fe 11.03%,
-        rgba(201,40,254,0) 72.12%),#182742;
-        padding: 17px 0 56px;
-    }
-    .deskView{
-        display: none;
-    }
-    .mobileView{
-        display: block;
-    }
-    .d-imgText{
-        width: 90%;
-        margin: auto;
-    }
-    .d-imgText h2{
-        font-size: 42px;
-        line-height: 62px;
-    }
-    .review-boxw  a{
-        font-size: 12px;
-    }
-    .svgAb{
-        display: none;
-    }
-}
 
-@media screen and (max-width:800px) {
-    .review-boxj{
-        display: block;
-    }
-    .review-box1{
-        display: none;
-    }
-    .container{
-        max-width: 100%;
-    }
-    .d-h1{
-        font-size: 42px;
-        line-height: 1.2;
-    }
-    .title-h2{
-        font-size: 26px;
-        line-height: 1.1;
-        margin-top: 7px;
-    }
 
-    .title-h3{
-        font-size: 22px;
-    }
 
-    .title-h4{
-        font-size: 20px;
-    }
 
-    .btn{
-        font-size: 12px;
-        padding: 16px 12px;
-    }
-    .d-contentvid{
-        position: relative;
-        top: 0;
-        padding: 0 16px;
-    }
-    .d-video{
-        height: 250px;
-    }
-    .weglot-box {
-        padding: 0 10px;
-    }
-    
-    .gcard p{
-        font-size: 13px;
-        line-height: 21px;
-        text-align: center;
-    }
-    .gcard h3{
-        font-size: 16px;
-    }
-    .w-card p{
-        font-size: 12px;
-    }
-    .w-card h3{
-        font-size: 14px;
-        line-height: 21px;
-    }
-    .box-text span{
-        font-size: 14px;
-    }
-    .box-text p{
-        font-size: 14px;
-    }
-
-    .review-boxd {
-        padding: 51px 16px;
-    }
-
-    .doc-text p{
-        font-size: 16px;
-    }
-
-    .d-list{
-        line-height: normal;
-    }
-    .d-list li{
-        padding: 8px 0;
-        font-size: 14px;
-    }
-    .d-list li i{
-        font-size: 18px;
-    }
-
-    .review-box {
-        padding: 39px 0 85px;
-    }
-}
-
-@media screen and (min-width:576px) {
-    .container{
-        max-width: 100%;
-    }
-
-}
