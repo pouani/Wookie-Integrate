@@ -46,19 +46,29 @@ standard.addEventListener("click", elmStandard, false);
 premium.addEventListener("click", elmPremium, false);
 
 function elmBasic(){
-    document.querySelector(".basic").classList.add("activebox");
     text1.innerHTML = "(BASIQUE) Idéal pour les débutants";
     text2.innerHTML = "US$25";
     p.innerHTML = "Concevez une boutique Shopify sur un thème premium avec plus de 10 produits les mieux notés";
     prix.innerHTML = "25";
-    document.querySelector(".premium").classList.remove("activebox");
+    document.querySelector(".basic").style.borderBottom = "3px solid #18c47c";
+    document.querySelector(".basic").style.color = "#18c47c";
+    document.querySelector(".standard").style.borderBottom = "1px solid #aaa";
+    document.querySelector(".standard").style.color = "#000";
+    document.querySelector(".premium").style.borderBottom = "1px solid #aaa";
+    document.querySelector(".premium").style.color = "#000";
 }
 
 function elmStandard(){
     text1.innerHTML = "GOLD";
     text2.innerHTML = "US$50";
     p.innerHTML = "Concevez une boutique Shopify sur un thème premium avec plus de 25 produits les mieux notés";
-    prix.innerHTML = "25"
+    prix.innerHTML = "25";
+    document.querySelector(".basic").style.borderBottom = "1px solid #aaa";
+    document.querySelector(".basic").style.color = "#000";
+    document.querySelector(".standard").style.borderBottom = "3px solid #18c47c";
+    document.querySelector(".standard").style.color = "#18c47c";
+    document.querySelector(".premium").style.borderBottom = "1px solid #aaa";
+    document.querySelector(".premium").style.color = "#000";
 
 }
 
@@ -66,5 +76,11 @@ function elmPremium(){
     text1.innerHTML = "PRO";
     text2.innerHTML = "US$70";
     p.innerHTML = "Concevez une boutique Shopify sur un thème premium avec plus de 50 produits les mieux notés";
-    prix.innerHTML = "50"
+    prix.innerHTML = "50";
+    document.querySelector(".basic").style.borderBottom = "1px solid #aaa";
+    document.querySelector(".basic").style.color = "#000";
+    document.querySelector(".standard").style.borderBottom = "1px solid #aaa";
+    document.querySelector(".standard").style.color = "#000";
+    document.querySelector(".premium").style.borderBottom = "3px solid #18c47c";
+    document.querySelector(".premium").style.color = "#18c47c";
 } 
