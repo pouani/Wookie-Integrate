@@ -97,17 +97,20 @@ btn.addEventListener("click", ()=>{
 });
 
 const btnOpen = document.querySelector(".icon");
+const btnClose = document.querySelector(".icon2");
 
 btnOpen.addEventListener("click", ()=>{
     document.querySelector(".navMobile").style.display = "block";
-    document.querySelector(".icon").classList.add("fa-times");
+    document.querySelector(".icon").style.display = "none";
+    document.querySelector(".icon2").style.display = "block";
 });
 
-if(btnOpen.classList.contains("fa-times")){
-    btnOpen.addEventListener("click", ()=>{
-        document.querySelector(".navMobile").style.bacground = "red";
-        
-    });
-}
+
+btnClose.addEventListener("click", ()=>{
+    document.querySelector(".navMobile").style.display = "none";
+    document.querySelector(".icon2").style.display = "none";
+    document.querySelector(".icon").style.display = "block";
+});
+
     
 
