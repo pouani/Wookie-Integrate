@@ -1,0 +1,173 @@
+<tbody><tr>
+                        <th>Apps</th>
+                        <th>Coût de l'abonnement App</th>
+                        <th class="text-center">Avec Wokiee</th>
+                    </tr>
+                    <tr>
+                        <td>Megamenu</td>
+                        <td>11 $/mois = 120 $/an</td>
+                        <td>
+                            <svg width="17" height="15" viewBox="0 0 19 15" fill="none">
+                                <path d="M19 1.30435L16.4667 0L6.96667 8.47826L2.53333 5.21739L0 7.17391L6.96667 15L19 1.30435Z" fill="yellow"></path>
+                            </svg>
+                            gratuit
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Boutique/feed d'Instagram</td>
+                        <td>6 $/mois = 60 $/an</td>
+                        <td>
+                            <svg width="17" height="15" viewBox="0 0 19 15" fill="none">
+                                <path d="M19 1.30435L16.4667 0L6.96667 8.47826L2.53333 5.21739L0 7.17391L6.96667 15L19 1.30435Z" fill="yellow"></path>
+                            </svg>
+                            gratuit
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Liste de souhaits</td>
+                        <td>9 $/mois = 96 $/année</td>
+                        <td>
+                            <svg width="17" height="15" viewBox="0 0 19 15" fill="none">
+                                <path d="M19 1.30435L16.4667 0L6.96667 8.47826L2.53333 5.21739L0 7.17391L6.96667 15L19 1.30435Z" fill="yellow"></path>
+                            </svg>
+                            gratuit
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Comparez</td>
+                        <td>6 $/mois = 60 $/an</td>
+                        <td>
+                            <svg width="17" height="15" viewBox="0 0 19 15" fill="none">
+                                <path d="M19 1.30435L16.4667 0L6.96667 8.47826L2.53333 5.21739L0 7.17391L6.96667 15L19 1.30435Z" fill="yellow"></path>
+                            </svg>
+                            gratuit
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Produits connexes</td>
+                        <td>11 $/mois = 120 $/année</td>
+                        <td>
+                            <svg width="17" height="15" viewBox="0 0 19 15" fill="none">
+                                <path d="M19 1.30435L16.4667 0L6.96667 8.47826L2.53333 5.21739L0 7.17391L6.96667 15L19 1.30435Z" fill="yellow"></path>
+                            </svg>
+                            gratuit
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Prix spéciaux</td>
+                        <td>9 $/mois = 96 $/année</td>
+                        <td>
+                            <svg width="17" height="15" viewBox="0 0 19 15" fill="none">
+                                <path d="M19 1.30435L16.4667 0L6.96667 8.47826L2.53333 5.21739L0 7.17391L6.96667 15L19 1.30435Z" fill="yellow"></path>
+                            </svg>
+                            gratuit
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Vue d'ensemble</td>
+                        <td>7 $/mois = 72 $/année</td>
+                        <td class="">
+                            <svg width="17" height="15" viewBox="0 0 19 15" fill="none">
+                                <path d="M19 1.30435L16.4667 0L6.96667 8.47826L2.53333 5.21739L0 7.17391L6.96667 15L19 1.30435Z" fill="yellow"></path>
+                            </svg>
+                            gratuit
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Fausses notifications de vente</td>
+                        <td>8 $/mois = 84 $/année</td>
+                        <td>
+                            <svg width="17" height="15" viewBox="0 0 19 15" fill="none">
+                                <path d="M19 1.30435L16.4667 0L6.96667 8.47826L2.53333 5.21739L0 7.17391L6.96667 15L19 1.30435Z" fill="yellow"></path>
+                            </svg>
+                            gratuit
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Conformité au GDPR</td>
+                        <td>2 $/mois = 21 $/année</td>
+                        <td>
+                            <svg width="17" height="15" viewBox="0 0 19 15" fill="none">
+                                <path d="M19 1.30435L16.4667 0L6.96667 8.47826L2.53333 5.21739L0 7.17391L6.96667 15L19 1.30435Z" fill="yellow"></path>
+                            </svg>
+                            gratuit
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Filtres</td>
+                        <td>23 $/mois = 240 $/année</td>
+                        <td>
+                            <svg width="17" height="15" viewBox="0 0 19 15" fill="none">
+                                <path d="M19 1.30435L16.4667 0L6.96667 8.47826L2.53333 5.21739L0 7.17391L6.96667 15L19 1.30435Z" fill="yellow"></path>
+                            </svg>
+                            gratuit
+                        </td>
+                    </tr>
+                </tbody>
+
+
+
+
+                table{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-family: Hind,sans-serif;
+    text-align: center;
+    color: #fff;
+    box-sizing: border-box;
+    width: 770px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 34px;
+    border-spacing: 0;
+    background: linear-gradient(360deg,#c928fe 0,#2879fe 100%);
+}
+
+ table tr:nth-child(2n+1)>:nth-child(-n+2) {
+    background: #272727;
+}
+ table tr th:nth-child(-n+2) {
+    font-weight: 400;
+    color: #c928fe;
+}
+ table tr>:nth-child(1) {
+    max-width: 193px;
+}
+
+table tr>:nth-child(-n+2) {
+    text-align: left;
+    padding-left: 19px;
+}
+
+table tr td:nth-child(2) {
+    font-weight: 400;
+    color: #999;
+}
+
+table tr:nth-child(2n)>:nth-child(-n+2) {
+    background: #1f1f1f;
+}
+
+table tr>:nth-child(2) {
+    border-left: 1px solid #343434;
+    width: 36%;
+}
+ table tr:nth-child(2n)>:nth-child(3) {
+    background: rgba(0,0,0,.2);
+}
+table tr th {
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+table tr td:nth-child(3) {
+    width: 100%;
+    color: #ffec54;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table tr>:nth-child(3) {
+    width: 28.5%;
+    
+}

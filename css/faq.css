@@ -1,0 +1,73 @@
+
+.container-faq p{
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.textIcon-f{
+    display: flex;
+    justify-content: space-between;
+}
+
+.textf{
+    line-height: 22px;
+    font-size: 16px;
+}
+
+.d-wrapper{
+    max-width: 850px;
+    width: 100%;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    margin: auto;
+}
+
+.d-toggle{
+    width: 100%;
+    background-color: transparent;
+    padding-top:16px;
+    padding-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #222222;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.d-toggle p{
+    font-size: 20px;
+    color: dodgerblue;
+    font-family: 'Inter', sans-serif;
+}
+
+.d-toggle .icon{
+    font-size: 12px;
+}
+
+.d-content{
+    position: relative;
+    font-size: 14px;
+    padding: 0 12px;
+    height: 0;
+    overflow: hidden;
+    transition: all .4s;
+}
+
+
+@media screen and (max-width:950px) {
+    .d-wrapper{
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .d-toggle{
+        padding: 10px 8px;
+    }
+}
+
