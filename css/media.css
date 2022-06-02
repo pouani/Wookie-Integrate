@@ -7,6 +7,12 @@
 
 
 @media screen and (max-width:800px) {
+    .btnNav{
+        display: block !important;
+    }
+    .navDesktop{
+        display: none !important;
+    }
     .review-boxj{
         display: block;
     }

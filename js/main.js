@@ -95,3 +95,19 @@ btn.addEventListener("click", ()=>{
         behavior: "smooth"
     });
 });
+
+const btnOpen = document.querySelector(".icon");
+
+btnOpen.addEventListener("click", ()=>{
+    document.querySelector(".navMobile").style.display = "block";
+    document.querySelector(".icon").classList.add("fa-times");
+});
+
+if(btnOpen.classList.contains("fa-times")){
+    btnOpen.addEventListener("click", ()=>{
+        document.querySelector(".navMobile").style.bacground = "red";
+        
+    });
+}
+    
+

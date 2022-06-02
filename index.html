@@ -15,29 +15,56 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <nav class="md:flex justify-around items-center px-2 py-3 bg-white border-b-2 border-gray-100 mb-3">
-        <div class="px-4">
-            <a href="#">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z" />
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z" />
-                </svg>
-            </a>
-        </div>
-        <ul class="md:flex gap-12 px-4 py-6 md:py-0 uppercase text-gray-600 font-medium">
-            <li class="py-2 md:py-0"><a href="#">features</a></li>
-            <li class="py-2 md:py-0"><a href="#">testimonials</a></li>
-            <li class="py-2 md:py-0"><a href="#">faqs</a></li>
-            <li class="py-2 md:py-0"><a href="#">support</a></li>
-        </ul>
-        <div class="px-4">
-            <button>
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                </svg>
+    <header class="">
+        <!-- Navigation desktop -->
+        <nav class="navDesktop flex justify-around items-center px-2 py-3 bg-white border-b-2 border-gray-100 mb-3">
+            <div class="px-4 gradiant-text" >
+                <a href="#" class="text-6xl font-bold tracking-tight">
+                    Wokie
+                </a>
+            </div>
+            <ul class="md:flex gap-12 px-4 py-6 md:py-0 uppercase text-gray-600 font-medium">
+                <li class="py-2 md:py-0"><a href="#">features</a></li>
+                <li class="py-2 md:py-0"><a href="#">testimonials</a></li>
+                <li class="py-2 md:py-0"><a href="#">faqs</a></li>
+                <li class="py-2 md:py-0"><a href="#">support</a></li>
+            </ul>
+            <div class="px-4">
+                <button class="btn m-0">
+                    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Navigation Mobile -->
+        <div class="btnNav">
+            <button class="btn">
+                <i class="fa-solid fa-bars-staggered icon"></i>
             </button>
         </div>
-    </nav>
+        <nav class="navMobile h-screen px-2 py-3 mb-3">
+            <div class="flex justify-center items-center">
+                <div class="text-center">
+                    <div class="px-4 gradiant-text" >
+                        <a href="#" class="text-6xl font-bold tracking-tight">
+                            Wokie
+                        </a>
+                    </div>
+                    <ul class="px-4 py-6 uppercase font-medium">
+                        <li class="py-4 "><a href="#">features</a></li>
+                        <li class="py-4 "><a href="#">testimonials</a></li>
+                        <li class="py-4 "><a href="#">faqs</a></li>
+                        <li class="py-4 "><a href="#">support</a></li>
+                    </ul>
+                    <div class="px-4">
+                        <button class="btn m-0">
+                            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
     <div class="btnTop">
         <i class="fa-solid fa-arrow-up"></i>
     </div>
