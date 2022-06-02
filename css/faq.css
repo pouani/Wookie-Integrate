@@ -69,5 +69,9 @@
     .d-toggle{
         padding: 10px 8px;
     }
+
+    .d-toggle p{
+        font-size: 16px;
+    }
 }
 

@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@300&display=swap');
-*, body{
+html,body{
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .svgAb{
@@ -398,7 +401,7 @@ td, th {
         margin: auto;
     }
     .d-imgText h2{
-        font-size: 60px;
+        font-size: 42px;
         line-height: 62px;
     }
     .review-boxw  a{
@@ -420,11 +423,11 @@ td, th {
         max-width: 100%;
     }
     .d-h1{
-        font-size: 40px;
+        font-size: 42px;
         line-height: 1.2;
     }
     .title-h2{
-        font-size: 28px;
+        font-size: 26px;
         line-height: 1.1;
         margin-top: 7px;
     }
@@ -438,7 +441,7 @@ td, th {
     }
 
     .btn{
-        font-size: 14px;
+        font-size: 12px;
         padding: 16px 12px;
     }
     .d-contentvid{
@@ -473,6 +476,29 @@ td, th {
     }
     .box-text p{
         font-size: 14px;
+    }
+
+    .review-boxd {
+        padding: 51px 16px;
+    }
+
+    .doc-text p{
+        font-size: 16px;
+    }
+
+    .d-list{
+        line-height: normal;
+    }
+    .d-list li{
+        padding: 8px 0;
+        font-size: 14px;
+    }
+    .d-list li i{
+        font-size: 18px;
+    }
+
+    .review-box {
+        padding: 39px 0 85px;
     }
 }
 
