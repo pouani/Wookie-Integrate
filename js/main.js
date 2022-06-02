@@ -46,11 +46,12 @@ standard.addEventListener("click", elmStandard, false);
 premium.addEventListener("click", elmPremium, false);
 
 function elmBasic(){
-    basic.classList.add("activebox");
+    document.querySelector(".basic").classList.add("activebox");
     text1.innerHTML = "(BASIQUE) Idéal pour les débutants";
     text2.innerHTML = "US$25";
     p.innerHTML = "Concevez une boutique Shopify sur un thème premium avec plus de 10 produits les mieux notés";
-    prix.innerHTML = "25"
+    prix.innerHTML = "25";
+    document.querySelector(".premium").classList.remove("activebox");
 }
 
 function elmStandard(){
