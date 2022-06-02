@@ -369,9 +369,10 @@ td, th {
     padding: 0;
 }
 
-.activebox{
-    border-bottom: 2px solid #2879fe;
-    background-color: #f5f5f5;
+#basic{
+    border-bottom: 3px solid #18c47c;
+    color: #18c47c;
+    /* background-color: #f5f5f5; */
 }
 
 .mobileView{
@@ -463,6 +464,12 @@ td, th {
     .w-card h3{
         font-size: 14px;
         line-height: 21px;
+    }
+    .box-text span{
+        font-size: 14px;
+    }
+    .box-text p{
+        font-size: 14px;
     }
 }
 
