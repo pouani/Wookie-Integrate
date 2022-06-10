@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"  />
+
+    <title>Document</title>
+</head>
+<style>
+    table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.container-faq p{
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.textIcon-f{
+    display: flex;
+    justify-content: space-between;
+}
+
+.textf{
+    line-height: 22px;
+    font-size: 16px;
+}
+
+.d-wrapper{
+    
+    width: 100%;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    margin: auto;
+}
+
+.d-toggle{
+    width: 100%;
+    background-color: transparent;
+    padding-top:6px;
+    padding-bottom: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #222222;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.d-toggle p{
+    font-size: 16px;
+    color: #222222;
+    font-family: 'Inter', sans-serif;
+}
+
+.d-toggle .icon{
+    font-size: 12px;
+}
+
+.d-content{
+    position: relative;
+    font-size: 14px;
+    padding: 0 12px;
+    height: 0;
+    overflow: hidden;
+    transition: all .4s;
+}
+
+
+@media screen and (max-width:950px) {
+    .d-wrapper{
+        width: 100%;
+   
+    }
+
+    .d-toggle{
+        padding: 6px 4px;
+    }
+
+    .d-toggle p{
+        font-size: 16px;
+    }
+}
+
+
+</style>
+<body>
+    <div class="container m-auto">
+        <h2 class="text-center title-h2 py-8">Questions fréquaments posées</h2>
+        <div class="d-wrapper">
+            <button class="d-toggle">
+                <p class="flex items-center"><span>PRODUCT SPECIFICATION</span></p>
+                <i class="fa-solid fa-angle-down icon"></i>
+            </button>
+            <div class="d-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, pariatur?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolorem maxime, 
+                officia maiores quod suscipit.
+            </div>
+        </div>
+        <div class="d-wrapper">
+            <button class="d-toggle">
+                <p class="flex items-center"><span>IN CASE YOU DON'T KNOW YOUR SIZE </span></p>
+                <i class="fa-solid fa-angle-down icon"></i>
+            </button>
+            <div class="d-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, pariatur?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolorem maxime, 
+                officia maiores quod suscipit.
+            </div>
+        </div>
+        <div class="d-wrapper">
+            <button class="d-toggle">
+                <p class="flex items-center"><span>100% RISK FREE MONEY-BACK GUARANTI</span></p>
+                <i class="fa-solid fa-angle-down icon"></i>
+            </button>
+            <div class="d-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, pariatur?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolorem maxime, 
+                officia maiores quod suscipit.
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let toggles = document.getElementsByClassName('d-toggle');
+        let contentDiv = document.getElementsByClassName('d-content');
+        let icons = document.getElementsByClassName('icon');
+
+        for(let i=0; i<toggles.length; i++){
+            toggles[i].addEventListener('click', ()=>{
+                if( parseInt(contentDiv[i].style.height) != contentDiv[i].scrollHeight){
+                    contentDiv[i].style.height = contentDiv[i].scrollHeight + "px";
+                    icons[i].classList.remove('fa-angle-down');
+                    icons[i].classList.add('fa-angle-up');
+                }
+                else{
+                    contentDiv[i].style.height = "0px";
+                    icons[i].classList.remove('fa-angle-up');
+                    icons[i].classList.add('fa-angle-down');
+                }
+
+                for(let j=0; j<contentDiv.length; j++){
+                    if(j!==i){
+                        contentDiv[j].style.height = "0px";
+                        icons[j].classList.remove('fa-angle-up');
+                        icons[j].classList.add('fa-angle-down');
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>

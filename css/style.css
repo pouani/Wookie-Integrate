@@ -1,17 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@300&display=swap');
+
 html,body{
-    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+.d-textH{
+    top: 4rem;
+}
+
 header .btnNav{
+    z-index: 3;
     height: 22px;
     width: 22px;
-    position: absolute;
+    position: fixed;
     top: 0;
-    left: 0;
+    right: 8%;
     padding: 0 8px;
     margin: 0px 0 0 0;
     display: none;
@@ -26,7 +30,14 @@ header .btnNav{
     cursor: pointer;
 }
 
+.logoM{
+    display: none;
+}
 
+.logo-sticky{
+    max-width: 120px;
+    display: none;
+}
 
 .btnNav i{
     font-size: 20px;
@@ -37,16 +48,53 @@ header .btnNav{
 }
 
 .navMobile{
+    z-index: 2;
     display: none;
+    /* position: fixed;
+    width: 100%; */
     background-color: #2879fe;
+    -webkit-font-smoothing: antialiased;
+    transform-origin: 0% 0%;
+    transform: translate(10%, 0);
+    transition: transform 1s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
 .navMobile ul li{
     color: #fff;
 }
 
+.header-top{
+    height: 100vh;
+    background-image: url('../img/Slide_shopify.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+.header li{
+    color: #fff;
+}
+
+.header-scroll{
+    position: fixed !important;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    background-color: #fff;
+    transition: .5s ease;
+}
+
+.header-scroll li{
+    color: #333;
+}
+
+.logoS, .logoM{
+    max-width: 200px;
+    transition: .5s ease;
+}
+
 .btnTop{
-    z-index: 5;
+    z-index: 10;
     height: 40px;
     width: 40px;
     border-radius: 5px;
@@ -81,6 +129,10 @@ header .btnNav{
 
 }
 
+.navDesktop{
+    
+}
+
 nav li{
     color: #182742;
     font-weight: 600;
@@ -100,8 +152,12 @@ nav li{
     padding-top: 8px;
 }
 
+.d-imgText span{
+    color: #ffec54;
+}
+
 .d-h1{
-    max-width: 815px;
+    max-width: 955px;
     position: relative;
     font-weight: 600;
     font-size: 34px;
@@ -234,6 +290,23 @@ a{
 .review-box2{
     background: #131313;
 }
+
+.reviewbox2 .container{
+    padding-top: 1.5rem;
+}
+
+.review-box3{
+    background-color: #182842;
+}
+
+.review-box3 h2{
+    color: #fff;
+   
+}
+
+.review-box3 h2{
+    margin-top: 0;
+}
 .review-boxSd{
     background-color: #15b7da;
 }
@@ -246,7 +319,6 @@ a{
 }
 
 .text-box{
-    max-width: 620px;
     margin: auto;
 }
 

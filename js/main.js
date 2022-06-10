@@ -100,16 +100,28 @@ const btnOpen = document.querySelector(".icon");
 const btnClose = document.querySelector(".icon2");
 
 btnOpen.addEventListener("click", ()=>{
-    document.querySelector(".navMobile").style.display = "block";
+    document.querySelector(".header").style.transform = "translate(0)";
     document.querySelector(".icon").style.display = "none";
-    document.querySelector(".icon2").style.display = "block";
+    document.querySelector(".icon2").style.display = "block";  
 });
 
 
 btnClose.addEventListener("click", ()=>{
-    document.querySelector(".navMobile").style.display = "none";
+    document.querySelector(".header").style.transform = "translate(-100%)";
     document.querySelector(".icon2").style.display = "none";
     document.querySelector(".icon").style.display = "block";
+});
+
+window.addEventListener("scroll", ()=>{
+    var header = document.querySelector(".header");
+    if(window.scrollY > 100){
+        header.classList.toggle("header-scroll", true);
+        document.querySelector(".logoS").style.display = "none";
+    }else{
+        header.classList.toggle("header-scroll", false);
+        document.querySelector(".logoS").style.display = "block";
+    }
+    
 });
 
     

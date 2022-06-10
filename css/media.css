@@ -6,13 +6,42 @@
 
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:766px) {
     .btnNav{
         display: block !important;
     }
     .navDesktop{
         display: none !important;
     }
+
+    .logoM{
+        display: block ;
+    }
+
+    .header{
+        z-index: 2;
+        position: fixed;
+        width: 60%;
+        height: 100vh;
+        background-color: #333;
+        color: #333;
+        -webkit-font-smoothing: antialiased;
+        -webkit-font-smoothing: antialiased;
+        transform: translate(-100%, 0);
+        transition: transform 0.4s cubic-bezier(0.77,0.2,0.05,1.0);
+    }
+
+    .header ul{
+        -webkit-font-smoothing: antialiased;
+    }
+
+    .header ul li{
+        padding: 10px 0;
+        transition-delay: 2s;
+        color: #fff;
+    }
+
+   
     .review-boxj{
         display: block;
     }
@@ -30,6 +59,12 @@
         font-size: 26px;
         line-height: 1.1;
         margin-top: 7px;
+    }
+
+    .review-box3 .title-h2{
+        font-size: 26px;
+        line-height: 40px;
+        font-weight: 400;
     }
 
     .title-h3{
@@ -121,29 +156,64 @@
     }
     .d-imgText{
         width: 90%;
+        right: 0;
         margin: auto;
     }
     .d-imgText h2{
-        font-size: 42px;
-        line-height: 62px;
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .d-imgText span{
+        font-size: 40px;
     }
     .review-boxw  a{
         font-size: 12px;
     }
+
     .svgAb{
         display: none;
+    }
+    .header-top{
+        background-position: left;
+        background-size: cover;
+    }
+    .reviewbox2 p{
+        font-size: 14px !important;
+    }
+    .reviewbox2 .ds-text{
+        font-size: 2rem !important;
+        line-height: 3rem;
     }
 }
 
 @media screen and (min-width:1024px) {
     .container{
-        max-width: 1200px;
+        max-width: 1240px;
+    }
+    .review-box3 .title-h2{
+        font-size: 32px;
+        line-height: 53px;
+        font-weight: 400;
+        padding: 0 20px !important;
     }
     .d-imgText{
         position: absolute;
         width: 100%;
         top: 30%;
+        left: 0;
+        right: 10%;
         line-height: 62px;
+        width: 60%;
+        margin: auto;
+    }
+    .ds-text{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .ds-text span{
+        font-size: 1.7rem;
     }
     .title-h1{
         font-size: 64px;
@@ -184,6 +254,10 @@
         width: 40%;
     }
 
+    .reviewbox2 .d-card{
+        width: 95%;
+    }
+
     .imgb{
         max-width: 750px;
         margin: auto;
@@ -191,13 +265,15 @@
     .f-Text{
         width: 60%;
     }
+     .reviewbox2 .ds-text{
+        font-size: 2rem !important;
+        line-height: 3rem;
+    }
     
 }
 
 @media screen and (min-width:1200px) {
-    .container{
-        max-width: 1200px !important;
-    }
+    
 
     .d-grid{
         max-width: 950px;
@@ -216,5 +292,35 @@
         font-size: 18px;
         line-height: 24px;
         color: #fff;
+    }
+    .ds-text{
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+
+    .ds-text span{
+        font-size: 2.5rem;
+    }
+
+}
+
+@media screen and (max-width: 1281px) {
+    .reviewbox2 p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:1920px) {
+    .ds-text{
+        font-size: 2.8rem;
+        line-height: 4.5rem;
+    }
+
+    .ds-text span{
+        font-size: 3.7rem;
+    }
+    .d-imgText{
+        top: 27%;
     }
 }

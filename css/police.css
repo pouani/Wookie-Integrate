@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@0;1&family=Lato:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@0;1&family=Lato:wght@300;400&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+h1{
+    font-family: 'Cabin', sans-serif;
+}
+
+h2, h3, h4{
+    font-family: 'Open Sans', sans-serif;
+}
+
+p, li, a, span{
+    font-family: 'Lato', sans-serif;
+}
+
